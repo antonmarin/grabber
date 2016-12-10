@@ -1,5 +1,5 @@
 # grabber
-Library to grab feeds, pages or other content
+Library to grab feeds and articles
 
 - grab images
 - grab rss
@@ -16,5 +16,4 @@ $httpClient = new CurlHttpClient();
 $grabber = new Grabber($httpClient);
 $feed = $grabber->getFeed($url);
 $article = $grabber->grabArticle($url);
-$video = $grabber->grabVideo($url); ??
 ```
