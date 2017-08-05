@@ -2,6 +2,8 @@
     "name": "antonmarin/grabber",
     "description": "Library to grab and parse content",
     "minimum-stability": "stable",
+    "keywords": ["grabber", "parser", "scrapper"],
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -11,5 +13,8 @@
     ],
     "require": {
         "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
     }
 }
