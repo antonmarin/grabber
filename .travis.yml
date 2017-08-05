@@ -9,10 +9,3 @@ php:
 - hhvm
 install:
 - composer install
-after_script:
-- vendor/bin/test-reporter --coverage-report build/logs/clover.xml
-addons:
-  apt:
-    packages:
-    - php5-curl
-  code_climate:
