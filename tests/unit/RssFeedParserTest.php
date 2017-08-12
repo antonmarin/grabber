@@ -1,9 +1,13 @@
 <?php
 
+namespace antonmarin\grabberTests\unit;
+
+use PHPUnit\Framework\TestCase;
+
 /**
  * @coversDefaultClass ${TESTED_NAME}
  */
-class TryTest extends \PHPUnit\Framework\TestCase
+class RssFeedParserTest extends TestCase
 {
     public function testTest()
     {
