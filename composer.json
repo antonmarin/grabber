@@ -11,6 +11,12 @@
             "email": "antonaryo85@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"antonmarin\\grabber\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": {"antonmarin\\grabberTests\\": "tests/"}
+    },
     "require": {
         "php": ">=5.6"
     },
