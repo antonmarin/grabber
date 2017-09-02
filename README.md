@@ -13,6 +13,7 @@ Library to grab and parse feeds and articles
 ## Usage
 
 ### Content already got
+
 ```php
 $content = 'some string here'
 $parser = new RssFeedParser();
